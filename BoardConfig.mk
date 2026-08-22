@@ -46,7 +46,7 @@ BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 67108864
 BOARD_SUPER_PARTITION_SIZE := 9126805504
 BOARD_SUPER_PARTITION_GROUPS := main
 BOARD_MAIN_SIZE := 9122611200
-BOARD_MAIN_PARTITION_LIST := system system_ext vendor product vendor_dlkm system_dlkm
+BOARD_MAIN_PARTITION_LIST := system system_ext vendor product vendor_dlkm
 
 # Dynamic partitions
 BOARD_USES_DYNAMIC_PARTITIONS := true
