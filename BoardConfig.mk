@@ -110,3 +110,4 @@ TWRP_EVENT_LOGGING := true
 
 # System as root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
+BOARD_RECOVERY_COPY_ROOT := false
