@@ -42,9 +42,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy firmware and modules
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/firmware/focaltech_ts_fw_boe_ft8057m.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_boe_ft8057m.bin \
-    $(LOCAL_PATH)/recovery/root/vendor/firmware/focaltech_ts_fw_boe_ft8057s.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_boe_ft8057s.bin \
-    $(LOCAL_PATH)/recovery/root/vendor/firmware/nt36528_novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36528_novatek_ts_fw.bin \
-    $(LOCAL_PATH)/recovery/root/vendor/firmware/nt36528_novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36528_novatek_ts_mp.bin \
-    $(LOCAL_PATH)/recovery/root/vendor/firmware/nt36528a_novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36528a_novatek_ts_fw.bin \
-    $(LOCAL_PATH)/recovery/root/vendor/firmware/nt36528a_novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36528a_novatek_ts_mp.bin
+    $(DEVICE_PATH)/recovery/root/vendor/firmware/focaltech_ts_fw_boe_ft8057m.bin:recovery/root/vendor/firmware/focaltech_ts_fw_boe_ft8057m.bin \
+    $(DEVICE_PATH)/recovery/root/vendor/firmware/focaltech_ts_fw_boe_ft8057s.bin:recovery/root/vendor/firmware/focaltech_ts_fw_boe_ft8057s.bin \
+    $(DEVICE_PATH)/recovery/root/vendor/firmware/nt36528_novatek_ts_fw.bin:recovery/root/vendor/firmware/nt36528_novatek_ts_fw.bin \
+    $(DEVICE_PATH)/recovery/root/vendor/firmware/nt36528_novatek_ts_mp.bin:recovery/root/vendor/firmware/nt36528_novatek_ts_mp.bin \
+    $(DEVICE_PATH)/recovery/root/vendor/firmware/nt36528a_novatek_ts_fw.bin:recovery/root/vendor/firmware/nt36528a_novatek_ts_fw.bin \
+    $(DEVICE_PATH)/recovery/root/vendor/firmware/nt36528a_novatek_ts_mp.bin:recovery/root/vendor/firmware/nt36528a_novatek_ts_mp.bin
