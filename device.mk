@@ -39,12 +39,3 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.twrp.version=3.7.1_12-By Romlord14495 \
     ro.minui.pixel_format=RGBX_8888
-
-# Copy firmware and modules (hardcoded path)
-PRODUCT_COPY_FILES += \
-    device/motorola/nevada/recovery/root/vendor/firmware/focaltech_ts_fw_boe_ft8057m.bin:recovery/root/vendor/firmware/focaltech_ts_fw_boe_ft8057m.bin \
-    device/motorola/nevada/recovery/root/vendor/firmware/focaltech_ts_fw_boe_ft8057s.bin:recovery/root/vendor/firmware/focaltech_ts_fw_boe_ft8057s.bin \
-    device/motorola/nevada/recovery/root/vendor/firmware/nt36528_novatek_ts_fw.bin:recovery/root/vendor/firmware/nt36528_novatek_ts_fw.bin \
-    device/motorola/nevada/recovery/root/vendor/firmware/nt36528_novatek_ts_mp.bin:recovery/root/vendor/firmware/nt36528_novatek_ts_mp.bin \
-    device/motorola/nevada/recovery/root/vendor/firmware/nt36528a_novatek_ts_fw.bin:recovery/root/vendor/firmware/nt36528a_novatek_ts_fw.bin \
-    device/motorola/nevada/recovery/root/vendor/firmware/nt36528a_novatek_ts_mp.bin:recovery/root/vendor/firmware/nt36528a_novatek_ts_mp.bin
