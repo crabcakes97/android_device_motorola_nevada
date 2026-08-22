@@ -86,6 +86,9 @@ TARGET_USES_LOGD := true
 TW_DEVICE_VERSION := Romlord14495
 TW_LOAD_VENDOR_MODULES := "nova_0flash_mmi_v3.ko focaltech_0flash_mmi_v3.ko touch_boost.ko mtk_ioctl_touch_boost.ko"
 
+# Point TWRP to the correct fstab
+TW_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
+
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
