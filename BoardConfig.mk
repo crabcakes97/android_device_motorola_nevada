@@ -1,6 +1,7 @@
 DEVICE_PATH := device/motorola/nevada
 
-# Disable VTS/fuzzer to avoid missing dependencies
+# Force allow missing VTS/fuzzer dependencies
+SOONG_ALLOW_MISSING_DEPENDENCIES := true
 BUILD_FUZZER := false
 WITH_VTS := false
 
