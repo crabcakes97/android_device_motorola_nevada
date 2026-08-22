@@ -53,6 +53,9 @@ jobs:
     - name: Build TWRP
       working-directory: twrp
       run: |
+        export SOONG_ALLOW_MISSING_DEPENDENCIES=true
+        export BUILD_FUZZER=false
+        export WITH_VTS=false
         source build/envsetup.sh
         lunch twrp_nevada-eng
         mka bootimage vendorbootimage -j$(nproc)
