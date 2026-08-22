@@ -1,5 +1,9 @@
 DEVICE_PATH := device/motorola/nevada
 
+# Disable VTS/fuzzer to avoid missing dependencies
+BUILD_FUZZER := false
+WITH_VTS := false
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
