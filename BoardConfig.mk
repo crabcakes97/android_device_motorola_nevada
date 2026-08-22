@@ -1,8 +1,5 @@
 DEVICE_PATH := device/motorola/nevada
 
-# Fix vendor symlink conflict
-RECOVERY_SKIP_VENDOR_SYMLINK := true
-
 # Force allow missing VTS/fuzzer dependencies
 SOONG_ALLOW_MISSING_DEPENDENCIES := true
 BUILD_FUZZER := false
@@ -110,4 +107,3 @@ TWRP_EVENT_LOGGING := true
 
 # System as root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
-BOARD_RECOVERY_COPY_ROOT := false
