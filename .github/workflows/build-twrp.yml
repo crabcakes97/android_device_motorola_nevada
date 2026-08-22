@@ -50,10 +50,6 @@ jobs:
       run: |
         git clone --depth=1 https://github.com/crabcakes97/android_device_motorola_nevada.git device/motorola/nevada
 
-    - name: Clean stale recovery output
-      working-directory: twrp
-      run: rm -rf out/target/product/nevada/recovery/root/vendor
-
     - name: Build TWRP
       working-directory: twrp
       run: |
